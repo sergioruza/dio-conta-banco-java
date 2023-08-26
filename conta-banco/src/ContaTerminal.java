@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
-  public int numero;
+  int numero;
   String agencia;
   String nomeCliente;
   float saldo;
