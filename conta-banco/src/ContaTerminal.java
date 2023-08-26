@@ -30,9 +30,6 @@ public class ContaTerminal {
   
   public void imprimirDados() {
     System.out.println("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-");
-    System.out.println("Número da conta: " + numero);
-    System.out.println("Número da agẽncia: " + agencia);
-    System.out.println("Nome do cliente: " + nomeCliente);
-    System.out.println("Saldo em conta: " + saldo);
+    System.out.println("Olá " +  nomeCliente +  ", obrigado por criar uma conta em nosso banco, sua agência é" + agencia + ", conta " + numero + " e seu saldo " +  saldo + " já está disponível para saque.");
   }
 }
